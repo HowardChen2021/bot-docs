@@ -113,6 +113,7 @@ module.exports = {
               'api/message/post_ark_message',
               'api/message/message_template',
               'api/message/message_format',
+              'api/message/post_reference_messages'
             ],
           },
           {
@@ -151,6 +152,7 @@ module.exports = {
               'api/announce/delete_guild_announce',
               'api/announce/create_channel_announce',
               'api/announce/delete_channel_announce',
+              'api/announce/post_recommended_channels',
             ],
           },
           {
@@ -163,6 +165,16 @@ module.exports = {
               'api/schedule/post_schedule',
               'api/schedule/update_schedule',
               'api/schedule/delete_schedule',
+            ],
+          },
+          {
+            title: '精华消息 API',
+            collapsable: false,
+            sidebarDepth: 0,
+            children: [
+              'api/pins_message/get_pins_message',
+              'api/pins_message/put_pins_message',
+              'api/pins_message/delete_pins_message',
             ],
           },
           {
